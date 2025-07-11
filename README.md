@@ -56,4 +56,3 @@ Exported 11 devices to test.kml
 ## Output example for kml exports
 
 The script generates colored notes for exported access points. The color depends on the identified encryption type. WPA encrypted access points will be added with a green color, WEP encrypted networks will be displayed in orange and Open network are displayed in red. Networks were the encryption type could not be detected will be added as a yellow note. Each note contains detailed meta information about the access point (SSID, MAC address, frequency, channel, manufacturer, and a list of clients MAC addresses).
-![Kismet-Analyzer-img](images/kismet-analyzer-img.png)
