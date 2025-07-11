@@ -1,3 +1,24 @@
+Metadata-Version: 2.4
+Name: kismet-analyzer
+Version: 0.4.2
+Summary: Library for parsing kismet results from the .kismet database file.
+Home-page: https://bitbucket.org/cbless/kismetanalyzer
+Author: Christoph Bless
+Author-email: bitbucket@cbless.de
+License:  GPLv3
+Description-Content-Type: text/markdown
+Requires-Dist: fastkml
+Requires-Dist: pygeoif
+Requires-Dist: lxml
+Dynamic: author
+Dynamic: author-email
+Dynamic: description
+Dynamic: description-content-type
+Dynamic: home-page
+Dynamic: license
+Dynamic: requires-dist
+Dynamic: summary
+
 This library can be used to analyze the results of the new Kismet version. To filter encryption types [Kismet](https://github.com/kismetwireless/kismet) version "f07735c" (Aug 19, 2018) or later is required.
 
 

@@ -1,3 +1,14 @@
+Metadata-Version: 2.1
+Name: kismet-analyzer
+Version: 0.4.2
+Summary: Library for parsing kismet results from the .kismet database file.
+Home-page: https://bitbucket.org/cbless/kismetanalyzer
+Author: Christoph Bless
+Author-email: bitbucket@cbless.de
+License:  GPLv3
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+
 This library can be used to analyze the results of the new Kismet version. To filter encryption types [Kismet](https://github.com/kismetwireless/kismet) version "f07735c" (Aug 19, 2018) or later is required.
 
 
@@ -71,3 +82,5 @@ Exported 11 devices to test.kml
 
 The script generates colored notes for exported access points. The color depends on the identified encryption type. WPA encrypted access points will be added with a green color, WEP encrypted networks will be displayed in orange and Open network are displayed in red. Networks were the encryption type could not be detected will be added as a yellow note. Each note contains detailed meta information about the access point (SSID, MAC address, frequency, channel, manufacturer, and a list of clients MAC addresses).
 ![Kismet-Analyzer-img](images/kismet-analyzer-img.png)
+
+
