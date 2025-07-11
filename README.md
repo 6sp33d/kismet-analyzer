@@ -15,7 +15,8 @@ As this is a fixed version of the [kismet-analyzer](https://pypi.org/project/kis
 ```
 git clone https://github.com/6sp33d/kismet-analyzer
 cd kismet-analyzer
-pipx install .```
+pipx install .
+```
 
 The setup script can be used to install the library and requirements in a virtual environment. It will create the above listed console commands.
 ```
