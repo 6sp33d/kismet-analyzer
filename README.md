@@ -10,7 +10,12 @@ The following scripts will be installed:
 
 ## Installation:
 
-As this is a fixed version of the [kismet-analyzer](https://pypi.org/project/kismet-analyzer) pip, if you try to use `pip` or `pipx` to install this, you'll end up with v0.4.1 which no longer communicates with the FastKML API and doesn't work.
+As this is a fixed version of the [kismet-analyzer](https://pypi.org/project/kismet-analyzer) pip, if you try to use `pip` to install this, you'll end up with v0.4.1 which no longer communicates with the FastKML API and doesn't work.
+
+```
+git clone https://github.com/6sp33d/kismet-analyzer
+cd kismet-analyzer
+pipx install .```
 
 The setup script can be used to install the library and requirements in a virtual environment. It will create the above listed console commands.
 ```
